@@ -1,0 +1,72 @@
+.cv-body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgb(186, 250, 250);
+
+}
+
+.side-background-left{
+    background-image: url(../Pictures/Hawaii.jpg);
+    width: 11%;
+    height: 1625px;
+    float: left;
+    background-size: cover;
+
+
+}
+
+.side-background-right{
+    float: right;
+    background-image: url(../Pictures/Hawaii.jpg);
+    width: 199px;
+    height: 1625px;
+    background-size: cover;
+}
+
+footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 100px;
+    background-color:#333;
+}
+
+.linked{
+    transform: scale(2.0)
+}
+
+header{
+background-color:#333;
+}
+
+.buttons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.cv:hover{
+background-color: rgb(0, 174, 255);
+}
+
+.cv{
+    background-color:rgb(127, 236, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.about:hover{
+    background-color: rgb(0, 174, 255);
+    
+}
+
+.about{
+    background-color:rgb(127, 236, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+

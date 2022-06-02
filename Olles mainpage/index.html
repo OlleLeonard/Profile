@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olles Mainpadge</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/30a5af1934.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="side-background-right"></div>
+    <div class="side-background-left"></div>
+
+<div class="notBody">
+
+
+    <h1 class="title">Hello World <span class="white"> and welcome to my</span> profile page!</h1>
+    <div class="picandtext">
+       
+        <img  class="picOlle" src="Pictures/Mattsson.jpg" alt="Picture of Olle">
+        <p>My Name is Olle L Mattsson and I am a Junior Front End Developer</p>
+        <p>I am an art teacher and leisure leader who wants to learn more about and work in IT.</p>
+        <p> Currently I am learning more about Javascript to broaden my knowledge
+         base and I am dipping my toes into C++.</p>
+     </div>    
+    <br>
+    <div class="buttons">
+        <button class="cv"><a href="file:///C:/Users/ollel/OneDrive/Skrivbord/Portfolio/Olles%20mainpage/cv.html">Olles CV</a> </button>
+        <button class="about"><a href="file:///C:/Users/ollel/OneDrive/Skrivbord/Portfolio/Olles%20mainpage/about.html">About Olle</a></button>
+    </div>
+    <br>
+    <span class="fryside" onclick="openNav()"> SKILLS</span>
+    <div class="skills">
+        <h3>Education</h3>
+        <div class="innerText">
+            <br>
+            <b>Intera medier och webbteknologi - Linnéuniversitetet Växjö</b>
+            <p>A course that taught about web technology and how to use it in 
+                different media.</p>
+            <br>
+            <b>IT / Front end Developer - Sundsgården Helsingborg</b>
+            <p>In this course I have learned about how to create good 
+                websites, programming languages, applications, learned
+                 to network with relevant companies and to profile myself.
+            </p>
+        </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><h3>Skills</h3>
+        
+        <a href="#"><li>Html</li></a>
+        <a href="#"><li>Css</li></a>
+        <a href="#"><li>Scss</li></a>
+        <a href="#"><li>Javascript</li></a>
+        <a href="#"><li>Git / GitHub</li></a>
+        <a href="#"><li>React</li></a>
+        <a href="#"><li>Bootstrap</li></a>
+        <a href="#"><li>SVG</li></a>
+        <a href="#"><li>Multimedia</li></a>
+        <a href="#"><li>Figma</li></a>
+      </div>
+
+    <div class="goals">
+        <h3>Goals</h3>
+        <p>My goals is to work in a friendly environment where I have 
+        the opportunity to be creative. I love to think and figure 
+        out new solutions to problems. Working with IT is very 
+        satisfying as you can get direct feedback on your projects 
+        but requires puzzling and hard work to get good results.</p>
+        <p>In the future, I dream of creating good websites and apps 
+         or create mindblowing games.</p>
+    </div>
+    
+   
+        <h3>Examples of my projekts</h3>
+        <div class="projects1">
+        <img  class="picProject" src="../Olles mainpage/Pictures/books.jpg" alt="A site forBooks">
+        <img  class="picProject" src="../Olles mainpage/Pictures/duck.jpg" alt="A site forDucks">
+        </div>
+        <div class="projects2">
+        <img  class="picProject" src="../Olles mainpage/Pictures/traisl.jpg" alt="A site forTraisl">
+        <img  class="picProject" src="../Olles mainpage/Pictures/quirrel.jpg" alt="A site for a Game">
+      
+    </div>
+</div>
+<footer>
+     <a href="https://www.linkedin.com/feed/"><i class=" linked fa-brands fa-linkedin"></i></a>
+</footer>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</body>
+</html>
